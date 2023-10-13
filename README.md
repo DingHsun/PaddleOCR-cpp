@@ -1,2 +1,27 @@
 # PaddleOCR-cpp
 PaddleOCR on C++ using onnxruntime.
+使用onnxruntime實現PaddleOCR，可運行x64和x86版本。
+
+## Packages
+* Microsoft.ML.OnnxRuntime.1.12.1
+* Microsoft.ML.OnnxRuntime.Gpu.1.12.1
+* opencv 4.5.0
+* OpencvX86 4.4.0
+
+## 模型選擇
+PP-OCR系列模型列表
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_ch/models_list.md
+
+放置路徑 ./weights/
+
+修改程式
+* text_det.cpp - string model_path
+* text_rec.cpp - string model_path
+* text_angle_cls.cpp - string model_path
+
+## 文字辨識文本下載
+xxx.txt放置main.cpp同目錄下。
+範例：中文識別模型ch_PP-OCRv4_rec
+![tempsnip](https://github.com/DingHsun/PaddleOCR-cpp/assets/110473288/e2c09df1-882f-4458-9bff-f5cadcd01682) 
+![tempsnip1](https://github.com/DingHsun/PaddleOCR-cpp/assets/110473288/a81544da-11fe-4887-8e9c-9cb063826a1a)
