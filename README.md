@@ -1,12 +1,18 @@
 # PaddleOCR-cpp
-PaddleOCR on C++ using onnxruntime.
-使用onnxruntime實現PaddleOCR，可運行x64和x86版本。
+PaddleOCR on C++ using onnxruntime.  
+使用onnxruntime實現PaddleOCR，可運行x64和x86版本。  
 
+本專案提供兩種OCR功能
+1. 全圖識別(文字位置)與辨識(文字內容) 
+2. 選擇ROI範圍進行辨識
 ## Packages
 * Microsoft.ML.OnnxRuntime.1.12.1
 * Microsoft.ML.OnnxRuntime.Gpu.1.12.1
 * opencv 4.5.0
 * OpencvX86 4.4.0
+
+放置路徑README.md同目錄下  
+https://drive.google.com/file/d/1t0dXe50Z05Vv6ja6cywRnbrGPFrQ51dD/view?usp=sharing
 
 ## 模型選擇
 PP-OCR系列模型列表
