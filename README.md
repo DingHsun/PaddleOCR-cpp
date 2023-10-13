@@ -1,5 +1,5 @@
 # PaddleOCR C++ 運行
-PaddleOCR on C++ using onnxruntime.  
+PaddleOCR on C++ using onnxruntime and opencv.  
 本專案使用C++實作開發，onnxruntime實現PaddleOCR，可運行x64和x86版本。  
 
 提供兩種OCR功能
@@ -19,12 +19,12 @@ PP-OCR系列模型列表
 
 https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_ch/models_list.md
 
-放置路徑 ./weights/
+下載後至 https://github.com/PaddlePaddle/Paddle2ONNX 執行model轉onnx並放置到下列路徑(放置路徑 ./weights/)
 
 修改程式
-* text_det.cpp - string model_path
-* text_rec.cpp - string model_path
-* text_angle_cls.cpp - string model_path
+* text_det.cpp - string model_path = your_model.onnx
+* text_rec.cpp - string model_path = your_model.onnx
+* text_angle_cls.cpp - string model_path = your_model.onnx
 
 ## 文字辨識文本下載
 xxx.txt放置main.cpp同目錄下。
