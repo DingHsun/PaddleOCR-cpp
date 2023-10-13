@@ -1,4 +1,4 @@
-# PaddleOCR-cpp
+# PaddleOCR C++ 運行
 PaddleOCR on C++ using onnxruntime.  
 使用onnxruntime實現PaddleOCR，可運行x64和x86版本。  
 
