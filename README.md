@@ -13,7 +13,6 @@ PaddleOCR on C++ using onnxruntime and opencv.
 * OpencvX86 4.4.0
 
 放置路徑README.md同目錄下  
-https://drive.google.com/file/d/1t0dXe50Z05Vv6ja6cywRnbrGPFrQ51dD/view?usp=sharing
 
 ## 模型選擇
 PP-OCR系列模型列表
