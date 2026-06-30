@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PaddleOCR-cpp/PaddleOCR-cpp.vcxproj" Id="e6a62e08-6ca8-44df-adcd-a6400bddc586" />
+</Solution>
